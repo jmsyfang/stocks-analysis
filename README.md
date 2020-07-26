@@ -8,6 +8,8 @@ The purpose of this project is to help Steve sort through a large amount of stoc
 
 We began with source code that would loop through the dataset and compare to each ticker we are interested in for matches. If there is a match, it records data (volume, price) otherwise it moves to the next entry. Once the data table has been scanned, it moves to the next ticker. We refactored the process so that it looks at the table once, and once we have identified the ending price (last entry for a ticker) it moves on to the next ticker to compare to.
 
+
+
 ## Summary
 
 
