@@ -8,6 +8,14 @@ The purpose of this project is to help Steve sort through a large amount of stoc
 
 We began with source code that would loop through the dataset and compare to each ticker we are interested in for matches. If there is a match, it records data (volume, price) otherwise it moves to the next entry. Once the data table has been scanned, it moves to the next ticker. We refactored the process so that it looks at the table once, and once we have identified the ending price (last entry for a ticker) it moves on to the next ticker to compare to.
 
+From the results, you can see DQ did fine in 2017 but did not perform well in 2018 (most of the tickers we look at performed poorly in 2018) With only 2 years of data, we can get an average return, which DQ is actually doing fine in (due to 2017 results). However, given that it's a retirement fund, a less volatile stock would be more beneficial even at the cost of lower expected return. RUN has similar return with  postive returns in 2017 and 2018.
+
+2018 results
+https://github.com/jmsyfang/stocks-analysis/blob/master/2018.png
+
+2017 results
+https://github.com/jmsyfang/stocks-analysis/blob/master/Annotation%202020-07-26%20094254.png
+
 
 
 ## Summary
